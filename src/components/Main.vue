@@ -1,14 +1,26 @@
 <template>
-  <VueCompareImage leftImage="https://i.imgur.com/bU50uS9.jpg" rightImage="https://i.imgur.com/z3ZoEEw.jpg" />;
+  <!-- <VueCompareImage leftImage="https://i.imgur.com/bU50uS9.jpg" rightImage="https://i.imgur.com/z3ZoEEw.jpg" />; -->
+  <h1>Main</h1>
+    <!-- <vue-typer
+      :text="text1"
+      :repeat="Infinity"
+      :shuffle="false"
+      initial-action="erasing"
+      :pre-type-delay="70"
+      :type-delay="70"
+      :pre-erase-delay="1980"
+      :erase-delay="150"
+      erase-style="select-back"
+      :erase-on-complete="false"
+      caret-animation="smooth"
+    ></vue-typer> -->
 </template>
 <script>
-/* eslint-disable linebreak-style */
-import VueCompareImage from 'vue-compare-image';
 
+/* eslint-disable linebreak-style */
 export default {
   name: 'Main',
   components: {
-    VueCompareImage,
   },
   data() {
     return {
